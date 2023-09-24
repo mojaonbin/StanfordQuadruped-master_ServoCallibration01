@@ -12,7 +12,7 @@ def get_motor_name(i, j):
 
 
 def get_motor_setpoint(i, j):
-    data = np.array([[0, 0, 0, 0], [45, 45, 45, 45], [45, 45, 45, 45]])
+    data = np.array([[4, -2, 3, -2], [92, 96, 90, 98], [-83, -70, -70, -75]])
     return data[i, j]
 
 
